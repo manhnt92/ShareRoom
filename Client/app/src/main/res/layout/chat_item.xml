@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    tools:ignore="RtlHardcoded,ObsoleteLayoutParam,RtlSymmetry">
+
+    <LinearLayout
+        android:id="@+id/ll_user1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:background="@drawable/balloon_incoming_normal">
+        <github.ankushsachdeva.emojicon.EmojiconTextView
+            android:id="@+id/user1_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:maxWidth="200dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Xin lỗi tôi có thể làm phiền bạn 1 chút được không ?" />
+        <TextView
+            android:id="@+id/user1_time_send"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="bottom"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="17:10"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_user2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_gravity="right"
+        android:background="@drawable/balloon_outgoing_normal"
+        android:orientation="horizontal">
+
+        <github.ankushsachdeva.emojicon.EmojiconTextView
+            android:id="@+id/user2_message"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:maxWidth="200dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Xin lỗi tôi có thể làm phiền bạn 1 chút được không ?" />
+
+        <TextView
+            android:id="@+id/user2_time_send"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="5dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="17:10"
+            android:textSize="12sp"/>
+
+        <ImageView
+            android:id="@+id/user2_message_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_single_tick"
+            android:layout_gravity="bottom"
+            android:visibility="visible" />
+    </LinearLayout>
+
+   <!-- <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/balloon_incoming_normal">
+        <ImageButton
+            android:id="@+id/btn_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn_play"
+            android:minWidth="100dp"/>
+    </RelativeLayout>
+    -->
+</LinearLayout>

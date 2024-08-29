@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/background"
+	tools:ignore="RtlHardcoded">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+		tools:ignore="PrivateResource">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"
+            android:background="@color/color_opacity" />
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"
+            android:gravity="center"
+            android:text="@string/my_room_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/white" />
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+			android:scaleType="@null"
+			android:paddingTop="10dp"
+			android:paddingBottom="10dp"
+            android:src="@mipmap/ic_back"
+			android:contentDescription="@string/app_name" />
+    </FrameLayout>
+    <ListView 
+        android:id="@+id/list_view_my_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:dividerHeight="5dp"
+        android:divider="@android:color/transparent"
+        android:listSelector="@android:color/transparent" 
+		android:cacheColorHint="@android:color/transparent"
+		android:scrollbars="none"
+		android:visibility="gone"/>
+    <FrameLayout 
+        android:id="@+id/fl_no_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" >
+        <TextView android:id="@+id/txt_no_rooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="50dp"
+            android:text="@string/no_rooms"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+		<com.gc.materialdesign.views.ButtonRectangle
+			android:id="@+id/btn_post_room"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_margin="10dp"
+			android:background="@color/app_color"
+			android:text="@string/btn_post_your_room" />
+    </FrameLayout>
+</LinearLayout>

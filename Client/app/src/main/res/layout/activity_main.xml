@@ -1,0 +1,76 @@
+<com.manhnt.navigationdrawer.BlurDrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:ignore="RtlHardcoded">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"
+            android:background="@color/color_opacity"
+            tools:ignore="PrivateResource">
+            <ImageButton
+                android:id="@+id/btn_drawer"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/abc_action_bar_default_height_material"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_menu_pressed"
+                android:contentDescription="@string/app_name" />
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_toRightOf="@id/btn_drawer"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/abc_action_bar_default_height_material"
+                android:gravity="center_vertical"
+                android:text="@string/shareroom"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="12">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                android:contentDescription="@string/app_name" />
+            <com.gc.materialdesign.views.ButtonRectangle
+                android:id="@+id/btn_post_room"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1.5"
+                android:text="@string/btn_post_your_room" />
+            <com.gc.materialdesign.views.ButtonRectangle
+                android:id="@+id/btn_search_rooms"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1.5"
+                android:text="@string/btn_search_rooms" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="@color/color_opacity">
+    </ListView>
+</com.manhnt.navigationdrawer.BlurDrawerLayout>

@@ -1,0 +1,370 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="facebook_app_id">1551177391819151</string>
+    <string name="google_api_key">AIzaSyBkodxzhGS6KRU9UXLQEOXgQLAipiqm0aU</string>
+    <string name="app_name">ShareRoom</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="internet_not_connected">Không có kết nối mạng</string>
+    <string name="require_login">Cần Đăng Nhập Để Sử Dụng Chức Năng Này</string>
+    <string name="waiting">Xin Vui Lòng Đợi Trong Giây Lát</string>
+    <string name="invalidNumber">Chuỗi Nhập Vào Không Phải Là Số</string>
+    <!-- MainActivity -->
+    <string name="shareroom">Đăng Tin Phòng Trọ Và Ở Ghép</string>
+    <string name="account">Tài Khoản</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="logout">Đăng Xuất</string>
+    <string name="application">Ứng Dụng</string>
+    <string name="posted">Bài Đã Đăng</string>
+    <string name="favorite">Mục Ưa Thích</string>
+    <string name="messages">Tin Nhắn</string>
+    <string name="about">Giới Thiệu</string>
+    <string name="setting">Cài Đặt</string>
+    <string name="full_app_name">Ứng Dụng Đăng Tin Phòng Trọ Và Ở Ghép</string>
+    <string name="about_dialog">- Hướng Dẫn : TS Trần Việt Trung\n- Thực Hiện : Nguyễn Tiến Mạnh\n- MSSV : 20101867\n- Khóa : K55</string>
+    <string name="OK">OK</string>
+    <string name="btn_post_your_room">ĐĂNG TIN PHÒNG TRỌ</string>
+    <string name="btn_search_rooms">TÌM KIẾM PHÒNG TRỌ</string>
+    <string name="district">Quận/Huyện</string>
+    <string name="ward">Phường/Xã</string>
+    <string name="choice_city">Chọn Địa Điểm</string>
+    <string name="choose">Chọn</string>
+    <string name="back">Quay Lại</string>
+    <string name="initDB" tools:ignore="TypographyEllipsis">Đang Chạy Dữ Liệu Cho Lần Đầu Tiên Sử Dụng...</string>
+    <string name="question_logout">Bạn Có Muốn Đăng Xuất Tài Khoản Hay Không ?</string>
+    <!-- Setting Activity -->
+    <string name="animation">Hiệu Ứng</string>
+    <string name="turn_on_anim">Bật Hiệu Ứng</string>
+    <string name="turn_off_anim">Tắt Hiệu Ứng</string>
+    <string name="animation_scale">Tỉ Lệ</string>
+    <string name="animation_friction">Ma Sát</string>
+    <string name="animation_tension">Sức Ép</string>
+    <string name="font">Font Chữ</string>
+    <string name="choice_font">Chọn Font Chữ</string>
+    <string-array name="list_fonts">
+        <item>Default</item>
+        <item>ACaslonPro</item>
+        <item>Argos OnGoing</item>
+        <item>Beautiful Every Time</item>
+        <item>Black Chancery</item>
+        <item>Blueberry Muffins</item>
+        <item>Call Me Maybe</item>
+        <item>Chalk Hand</item>
+        <item>Cider Script</item>
+        <item>Cinnamon Cake</item>
+        <item>Crayon</item>
+        <item>Dartangnon</item>
+        <item>Didot</item>
+        <item>Geotica</item>
+        <item>HeraBig</item>
+        <item>Kaileen</item>
+        <item>Lavanderia</item>
+        <item>Love Passion</item>
+        <item>Love Ya Like A Sister</item>
+        <item>Loving You</item>
+        <item>Net Muc</item>
+        <item>Ong Do</item>
+        <item>Pepita</item>
+        <item>Riesling</item>
+        <item>Rix Love Fool</item>
+        <item>Souci</item>
+        <item>Time New Roman</item>
+        <item>U Make Me Smile</item>
+        <item>UTM Akashi</item>
+        <item>UTM Alba Matter</item>
+        <item>UTM Amerika Sans</item>
+        <item>UTM DuePunToZero</item>
+        <item>Valentine</item>
+        <item>ZemkeHand OnGoing</item>
+    </string-array>
+    <!-- Login Activity -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Mật Khẩu</string>
+    <string name="cb_save_account">Ghi nhớ tài khoản</string>
+    <string name="login_with_facebook">Đăng Nhập Bằng FaceBook</string>
+    <string name="register">Đăng Kí Tài Khoản</string>
+    <string name="missing_input">Nhập Thiếu</string>
+    <string name="and">Và</string>
+    <string name="male">Nam</string><string name="male_eng">male</string>
+    <string name="female">Nữ</string><string name="female_eng">female</string>
+    <!-- Register Activity -->
+    <string name="hint_confirmPass">Xác Nhận Mật Khẩu</string>
+    <string name="hint_first_name">Họ</string>
+    <string name="hint_last_name">Tên</string>
+    <string name="information">Thông Tin Cá Nhân</string>
+    <string name="password_not_equal_confirmPass">Xác Nhận Mật Khẩu Không Giống Mật Khẩu</string>
+    <!-- Profile Activity -->
+    <string name="profile_title">Thông Tin Tài Khoản</string>
+    <string name="update_account">Update Tài Khoản</string>
+    <string name="age">Tuổi</string><string name="edit_age">Sửa Tuổi</string><string name="hint_age">Nhập Số Tuổi</string>
+    <string name="gender">Giới Tính</string><string name="choice_gender">Sửa Giới Tính</string>
+    <string-array name="array_gender">
+        <item >Nam</item>
+        <item >Nữ</item>
+    </string-array>
+    <string name="address">Địa Chỉ</string><string name="edit_address">Sửa Địa Chỉ</string><string name="hint_my_address">Nhập Địa Chỉ</string><string name="getCurrentLocation">Lấy Vị Trí Hiện Tại</string>
+    <string name="birthday">Sinh Nhật</string>
+    <string name="description">Giới Thiệu Bản Thân</string><string name="edit_description">Sửa Giới Thiệu Bản Thân</string><string name="hint_description">Nhập Giới Thiệu Bản Thân</string>
+    <string name="occupation">Nghề Nghiệp</string><string name="edit_occupation">Sửa Nghề Nghiệp</string><string name="hint_occupation">Nhập Nghề Nghiệp</string>
+    <string name="phonenumber">Số Điện Thoại</string><string name="edit_phonenumber">Sửa Số Điện Thoại</string><string name="hint_phonenumber">Nhập Số Điện Thoại</string>
+    <string name="no_content">Chưa Có Thông Tin</string>
+    <string name="hint_old_password">Mật Khẩu Cũ</string><string name="edit_password">Sửa Mật Khẩu</string><string name="invalid_old_password">Nhập Mật Khẩu Cũ Không Đúng</string>
+    <string name="hint_new_password">Mật Khẩu Mới</string>
+    <string name="hint_confirm_new_password">Xác Nhận Mật Khẩu Mới</string>
+    <string name="cannot_getCurLocation">Không thể lấy được vị trí hiện tại. Hãy bật dịch vụ GPS để xác định vị trí</string>
+    <string name="edit_avatar">Sửa Ảnh Đại Diện</string>
+    <string-array name="list_edit_image">
+        <item >Chụp Ảnh</item>
+        <item >Chọn Ảnh Từ Thư Viện</item>
+        <item >Quay Lại</item>
+    </string-array>
+    <string name="edit_name">Sửa Họ Tên</string>
+    <!-- Room_Address -->
+    <string name="room_address_title">Vị Trí Phòng Trọ</string>
+    <string name="hint_address">Địa Chỉ Phòng Trọ</string>
+    <string name="btn_search">TÌM KIẾM</string>
+    <string name="move_market">Di Chuyển Cờ Tới Vị Trí Mong Muốn</string>
+    <string name="missing_address_and_marker">Thiếu Địa Chỉ Và Cờ Vị Trí Phòng Trọ</string>
+    <string name="missing_address">Thiếu Địa Chỉ Phòng Trọ</string>
+    <string name="missing_marker">Thiếu Cờ Vị Trí Phòng Trọ</string>
+    <!-- Room_Properties -->
+    <string name="room_properties_title">Thông Tin Chung Phòng Trọ</string>
+    <string name="txt_rent_per_month">Tiền Trọ/Tháng</string>
+    <string name="txt_electric">Tiền Điện/Số</string>
+    <string name="txt_water">Tiền Nước/Tháng</string>
+    <string name="txt_area">Diện Tích Phòng</string>
+    <string name="txt_number_per_room">Số Người/Phòng</string>
+    <string name="txt_min_stay">Ở Tối Thiểu</string>
+    <string name="txt_available_from">Ở Được Từ</string>
+    <string name="txt_room_type">Kiểu Phòng Trọ</string>
+    <string name="txt_room_state">Kiểu Bài Đăng</string>
+    <string name="vnd">VNĐ</string>
+    <string name="million_vnd">Triệu VNĐ</string>
+    <string name="million">Triệu</string>
+    <string name="month">Tháng</string>
+    <string name="person">Người</string>
+    <string name="txt_rent_per_month_content">0.0 Triệu VNĐ</string>
+    <string name="txt_electric_and_water_content">0.000 VNĐ</string>
+    <string name="txt_number_per_room_content">0 Người</string>
+    <string name="txt_min_stay_content">0 Tháng</string>
+    <string name="choice_room_type">Chọn Kiểu Phòng Trọ</string>
+    <string-array name="array_room_type">
+        <item >Nhà Cấp 4</item>
+        <item >Nhà Tầng</item>
+        <item >Chung Cư</item>
+        <item >Liên Hệ</item>
+    </string-array>
+    <string name="choice_room_state">Chọn Kiểu Bài Đăng</string>
+    <string-array name="array_room_state">
+        <item >Cho Thuê</item>
+        <item >Tìm Người Ở Ghép</item>
+        <item >Liên Hệ</item>
+    </string-array>
+    <!--Room_Images -->
+    <string name="room_images_title">Hình Ảnh Phòng Trọ</string>
+    <string name="add_image">Thêm Ảnh Phòng Trọ</string>
+    <string name="add_note">Thêm Ghi Chú Ảnh</string>
+    <string name="add_note_hint">Nhập Ghi Chú</string>
+    <string name="question_remove_image">Bạn Có Muốn Xóa Bức Ảnh Này Hay Không ?</string>
+    <string name="upload_success">UpLoad Thành Công</string>
+    <string name="delete_success">Xóa Thành Công</string>
+    <string name="image">Ảnh</string>
+    <!-- Room_Amenities -->
+    <string name="room_amenities_title">Tiện Ích Phòng Trọ</string>
+    <string name="btn_post">ĐĂNG BÀI</string>
+    <string name="hint_amenitites">Nhập Tiện Ích</string>
+    <string-array name="array_amenities">
+        <item>Gần chợ, siêu thị</item><item>gancho</item>
+        <item>Gần công viên</item><item>ganCongVien</item>
+        <item>Nhà mặt đường</item><item>matDuong</item>
+        <item>Có sẵn giường ngủ</item><item>phongNgu</item>
+        <item>Có ban công thoáng mát</item><item>banCong</item>
+        <item>Có sẵn tủ đựng quần áo</item><item>tuQuanAo</item>
+        <item>Có điều hòa, máy lạnh</item><item>dieuHoa</item>
+        <item>Có sân phơi quần áo riêng</item><item>sanPhoiQuanAo</item>
+        <item>Phòng mới xây</item><item>phongMoiXay</item>
+        <item>Có lối đi riêng</item><item>loiDiRieng</item>
+        <item>Có chỗ để xe riêng</item><item>choDeXeRieng</item>
+        <item>Có cáp truyền hình</item><item>capTruyenHinh</item>
+        <item>Có Internet</item><item>internet</item>
+        <item>Có sẵn tivi</item><item>tivi</item>
+        <item>Giờ giấc tự do</item><item>gioGiacTuDo</item>
+        <item>Cần đặt cọc</item><item>canDatCoc</item>
+        <item>Yên tĩnh</item><item>yenTinh</item>
+        <item>An ninh tốt</item><item>anNinh</item>
+        <item>Có nới nấu ăn riêng biệt</item><item>choNauAn</item>
+        <item>Có phòng tắm riêng</item><item>phongTam</item>
+        <item>Ở chung chủ</item><item>oCungChuNha</item>
+    </string-array>
+    <!-- My Room Activity -->
+    <string name="my_room_title">Danh Sách Bài Đăng</string>
+    <string name="no_rooms">Chưa Có Bài Đăng. Đăng Bài Ngay ?</string>
+    <!-- Room Detail Activity -->
+    <string name="room_detail_title">Chi Tiết Bài Đăng</string>
+    <string name="province">Thành Phố/Tỉnh</string>
+    <string name="no_room_image">Không Có Ảnh Phòng Trọ</string>
+    <string name="question_delete_room">Bạn Có Muốn Xóa Bài Đăng Này Hay Không ?</string>
+    <string name="question_edit_room_images">Bạn Có Muốn Sửa Hình Ảnh Phòng Trọ Hay Không ?</string>
+    <string name="question_edit_room_properties">Bạn Có Muốn Sửa Thông Tin Chung Phòng Trọ Hay Không ?</string>
+    <string name="question_edit_room_address">Bạn Có Muốn Sửa Vị Trí Phòng Trọ Hay Không ?</string>
+    <string name="question_edit_room_amenities">Bạn Có Muốn Sửa Tiện Ích Phòng Trọ Hay Không ?</string>
+    <string name="question_update">Chưa Lưu Thay Đổi. Bạn Có Muốn Lưu Thay Đổi Hay Không ?</string>
+    <string name="NO">Không</string>
+    <!-- Search Room -->
+    <string name="search_room_title">Tìm Kiếm Phòng Trọ</string>
+    <string name="btn_search_here">TÌM KIẾM TẠI ĐÂY</string>
+    <string name="txt_rent_dialog">Tiền Trọ</string><string name="txt_rent_min">0.0 Triệu</string><string name="txt_rent_max">10.0 Triệu</string>
+    <string name="txt_electric_dialog">Tiền Điện</string><string name="txt_electric_min">0.000</string><string name="txt_electric_max">10.000</string>
+    <string name="txt_water_dialog">Tiền Nước</string><string name="txt_water_min">0.000</string><string name="txt_water_max">100.000</string>
+    <string name="txt_area_dialog">Diện Tích</string>
+    <string name="txt_person_dialog">Số Người</string><string name="txt_person_min">0 Người</string><string name="txt_person_max">10 Người</string>
+    <string name="txt_hint_radius">Nhập Bán Kính Tìm Kiếm</string>
+    <string name="txt_err_direction">Hãy Chắc Chắn Rằng Bạn Đã Chọn 1 Phòng Trọ Để Chỉ Đường</string>
+    <string name="txt_make_marker">Hãy Cắm Cờ Để Khoanh Vùng Tìm Kiếm</string>
+    <string name="txt_invalid_radius" tools:ignore="TypographyDashes">Bán Kính Tìm Kiếm Trong Khoảng Từ 0 --> 100 Km</string>
+    <string name="filter_result">Bộ Lọc Kết Quả</string>
+    <string name="search_position">"Vị trí tìm kiếm</string>
+    <string name="hint_search_full_text">Nhập Địa Chỉ</string>
+    <string-array name="arr_university_ha_noi">
+        <item>ĐH Quốc gia Hà Nội</item><item>ChIJf9J9q0qrNTERzHkgTWh6QD8</item>
+        <item>HV Âm nhạc Quốc gia Việt Nam</item><item >ChIJBQIIoHerNTERBLJsWDUSRVs</item>
+        <item>HV Báo chí Tuyên truyền</item><item>ChIJiwTYEzarNTERUPXhBXcd8po</item>
+        <item>HV Chính sách và Phát triển</item><item>ChIJSaXwEE2rNTERWKJxLYjXH4w</item>
+        <item>HV Công nghệ Bưu chính Viễn thông</item><item>ChIJ0Qt7z82sNTERimJHAtBdz8E</item>
+        <item>HV Hành chính Quốc gia</item><item>ChIJWSsOqGirNTER7SWxEyRE3kk</item>
+        <item>HV Kỹ thuật Mật mã</item><item>ChIJ_Tj5CMWsNTER8tGiBkhHPog</item>
+        <item>HV Ngân hàng</item><item>ChIJBdnbCICsNTERa-xo8-ScM04</item>
+        <item>HV Ngoại giao</item><item>ChIJbWOcKmarNTERPFtQFL_h9CQ</item>
+        <item>HV Quản lý Giáo dục</item><item>ChIJ0xFtZWasNTERlmE8ujKuTkI</item>
+        <item>HV Tài chính</item><item>ChIJmzq8VDBVNDERHl2wevqQpjQ</item>
+        <item>HV Thanh Thiếu niên Việt Nam</item><item>ChIJNTJcLmarNTER_8VPtd2TsvE</item>
+        <item>HV Y Dược học cổ truyền Việt Nam</item><item>ChIJQb_wt8isNTERRo_m4TyQ2YY</item>
+        <item>ĐH Bách khoa Hà Nội</item><item>ChIJLUIR7HasNTERBYsL3ZpGkSc</item>
+        <item>ĐH Công đoàn</item><item>ChIJCynm1n-rNTERBnw40sGm14s</item>
+        <item>ĐH Công nghệ Giao thông vận tải</item><item>ChIJX_nHvcasNTERR1KkQ2PG_1g</item>
+        <item>ĐH Công nghiệp Hà Nội</item><item>ChIJv9WS4ldUNDERmkN0TcmRrCA</item>
+        <item>ĐH Công nghiệp Việt Hung</item><item>ChIJE_0lPKNfNDERSCh2V1_LbpI</item>
+        <item>ĐH Dược Hà Nội</item><item>ChIJpVoTgu6rNTER6TxvbYnbvkI</item>
+        <item>ĐH Điện lực</item><item>ChIJ3dBgWTKrNTERv6Ja4oiYHHI</item>
+        <item>ĐH Giao thông vận tải</item><item>ChIJfaOFLkKrNTER4EMFGs974Jw</item>
+        <item>ĐH Hà Nội</item><item>ChIJ5anc88esNTERZBAfR5dazzA</item>
+        <item>ĐH Khoa học và Công nghệ Hà Nội</item><item>ChIJReoEPyOrNTERQAcBW8k5Opg</item>
+        <item>ĐH Kinh tế Kỹ thuật Công nghiệp</item><item>ChIJHRtMQAWsNTER0Bl_M2fUZdg</item>
+        <item>ĐH Kinh tế Quốc dân</item><item>ChIJeY8tdXGsNTER-noBAVxX7NI</item>
+        <item>ĐH Kiến trúc Hà Nội</item><item >ChIJRUKmQ86sNTERTUUgpSFgF9s</item>
+        <item>ĐH Lao động Xã hội</item><item>ChIJp3eGfl-rNTERm-3J2SAY6Og</item>
+        <item>ĐH Lâm nghiệp</item><item>ChIJTbuvaWxFNDERGRGzBUw_Tqo</item>
+        <item>ĐH Luật Hà Nội</item><item>ChIJscPCamarNTEREGk2Xwuzd48</item>
+        <item>ĐH Mỏ Địa chất Hà Nội</item><item>ChIJL_q2KC5VNDERbz1qOfFEcqA</item>
+        <item>ĐH Mỹ thuật Công nghiệp</item><item>ChIJlwzg2XmrNTERpol4j_C9GAs</item>
+        <item>ĐH Mỹ thuật Việt Nam</item><item>ChIJHQN-W5CrNTERHbWQMEKhNhs</item>
+        <item>ĐH Ngoại thương</item><item>ChIJCflhUV2rNTER4yviDFCvr00</item>
+        <item>ĐH Nội vụ Hà Nội</item><item>ChIJKw70b92qNTERCO3Pu9Qw6b4</item>
+        <item>ĐH Nông nghiệp Hà Nội</item><item>ChIJYQwCFNKoNTEROxJD1hSX4sY</item>
+        <item>ĐH Sân khấu Điện ảnh</item><item>ChIJN-0YkclUNDERCyCpKlFNrkc</item>
+        <item>ĐH Sư phạm Hà Nội</item><item>ChIJmyPCXDWrNTERo42zTxFH4po</item>
+        <item>ĐH Sư phạm Nghệ thuật Trung ương Hà Nội</item><item>ChIJt6atzZasNTERrw5BJVC0e1o</item>
+        <item>ĐH Sư phạm Thể dục thể thao Hà nội</item><item>ChIJy7H8_AxSNDERRDcmLEus9Uk</item>
+        <item>ĐH Tài nguyên và Môi trường Hà Nội</item><item>ChIJQXFXzsNUNDERvHcXcJKsobE</item>
+        <item>ĐH Thủy lợi</item><item>ChIJpVt2CYGsNTER7oBW4OxAR9g</item>
+        <item>ĐH Thương mại</item><item>ChIJLzk8FrZUNDERA221y_pkvx4</item>
+        <item>ĐH Văn hóa Hà Nội</item><item>ChIJxTZcuXCrNTER03mlPmfawWw</item>
+        <item>ĐH Xây dựng</item><item>ChIJFbQmMHesNTERiveJOGGLm0k</item>
+        <item>ĐH Y Hà Nội</item><item>ChIJI2P9M3ysNTERkvRf8lwgDZM</item>
+        <item>ĐH Y tế Công cộng</item><item>ChIJ9SvmRXSrNTER_YaosTugJBM</item>
+        <item>Viện ĐH Mở Hà Nội</item><item>ChIJP8ia7XOsNTERrw1OIjdllDE</item>
+        <item>ĐH Đông Đô</item><item>ChIJlQwLJ81UNDERMO9mAgoqpdc</item>
+        <item>ĐH Phương Đông</item><item>ChIJPYvr1VmrNTERt2c46OZl3xk</item>
+        <item>ĐH Thăng Long</item><item>ChIJDzXViu-sNTER9Y8RKDVaQ4k</item>
+        <item>ĐH Đại Nam</item><item>ChIJubX8d5esNTERsuIKU-oqmaA</item>
+        <item>ĐH FPT</item><item>ChIJbQilLLNUNDER5Der2CkuxqM</item>
+        <item>ĐH Hòa Bình</item><item>ChIJ9Zx26rtUNDERtYkopJL434w</item>
+        <item>ĐH Kinh doanh và Công nghệ Hà Nội</item><item>ChIJj-AGPaquNTERQeyWnIA1kPU</item>
+        <item>ĐH Nguyễn Trãi</item><item>ChIJwVFJihKrNTERA1gTLoN4170</item>
+        <item>ĐH Quốc tế Bắc Hà</item><item>ChIJ5WTqZ0mrNTERBM2NOwgSMxw</item>
+        <item>ĐH Tài chính Ngân hàng Hà Nội</item><item>ChIJ807LacyqNTERngv9dmwkXsE</item>
+        <item>ĐH Thành Tây</item><item>ChIJ40w5_-9SNDERZORbMtQ5Gjk</item>
+        <item>ĐH Thành Đô</item><item>ChIJBykZZ01UNDERMUJ6QapTu64</item>
+        <item>ĐH Công nghệ và Quản lý Hữu nghị</item><item>ChIJCZUIxRisNTERapfDc_yW43E</item>
+    </string-array>
+    <!-- SearchRoom View Detail Activity-->
+    <string name="no_info">Chưa Có Thông Tin</string>
+    <string name="share_via">Chia Sẻ</string>
+    <string name="hint_chat">Viết Tin Nhắn</string>
+    <string name="rating">Đánh Giá Bài Đăng</string>
+    <string name="txt_rating">Đánh Giá</string>
+    <string name="txt_comment">Bình Luận</string>
+    <string name="txt_share">Chia Sẻ</string>
+    <string-array name="ratings_array_content">
+        <item>Chưa Đánh Giá Bài Đăng</item>
+        <item>Quá Tệ. Không có Thông Tin</item>
+        <item>Tệ. Thiếu Nhiều Thông Tin</item>
+        <item>Trung Bình. Thông Tin Ít</item>
+        <item>Được. Thông Tin Đầy Đủ</item>
+        <item>Tuyệt Vời. Thông Tin Đầy Đủ Và Chi Tiết</item>
+    </string-array>
+    <!-- Comments Activity -->
+    <string name="comments">Bình Luận Bài Đăng</string>
+    <string name="hint_comment">Viết Bình Luận</string>
+    <string name="loading_more">Tải Thêm Bình Luận</string>
+    <string-array name="my_comment_control">
+        <item>Sửa</item>
+        <item>Xóa</item>
+        <item>Sao Chép</item>
+        <item>Hủy</item>
+    </string-array>
+    <string-array name="comment_control">
+        <item>Sao Chép</item>
+        <item>Hủy</item>
+    </string-array>
+    <string name="edit_comment">Sửa Bình Luận</string>
+    <string name="delete_comment">Xóa Bình Luận</string>
+    <string name="question_delete_comment">Bạn Có Muốn Xóa Bình Luận Này Hay Không ?</string>
+    <!-- Service -->
+    <string name="ticker">Có tin nhắn mới</string>
+    <string name="close">ĐÓNG</string>
+    <string name="view">XEM</string>
+    <!-- MyConversation Activity -->
+    <string name="my_conversation_title">Danh Sách Trò Chuyện</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <!-- My Favorite Rooms Activity -->
+    <string name="my_favorite_rooms_title">Danh Sách Bài Đăng Ưa Thích</string>
+    <string name="no_favorite_rooms">Không Có Bài Đăng Ưa Thích</string>
+    <!-- Chat Activity -->
+    <string name="call_not_establish">Không Kết Nối Được Với</string>
+    <string name="call_dialog_title">Gọi Điện Thoại</string>
+    <string-array name="arr_call">
+        <item>Gọi Qua Số Điện Thoại</item>
+        <item>Audio Call Qua ShareRoom</item>
+        <item>Video Call Qua ShareRoom</item>
+        <item>Quay Lại</item>
+    </string-array>
+    <!-- Call -->
+    <string-array name="arr_reject_message">
+        <item>Tôi đang bận. Tôi sẽ gọi lại cho bạn sau</item>
+        <item>Tôi đang có cuộc gọi khác. Tôi sẽ gọi lại cho bạn sau</item>
+        <item>Tôi đang họp. Tôi sẽ gọi lại cho bạn sau</item>
+        <item>Tôi đang lái xe. Tôi sẽ gọi lại cho bạn sau</item>
+        <item>Giờ tôi không thể nói chuyện. Vui lòng gửi tin nhắn cho tôi</item>
+        <item>Tôi đang ăn. Tôi sẽ gọi lại cho bạn sau</item>
+    </string-array>
+    <string name="call_title">Audio Call qua Share Room</string>
+    <string name="video_call_title">Video Call qua Share Room</string>
+    <string name="status_out_going_call">Đang gọi</string>
+    <string name="status_in_coming_call">Cuộc gọi đến</string>
+    <string name="status_reject_call">Từ Chối Cuộc Gọi</string>
+    <string name="status_no_reply">Không Phản Hồi</string>
+    <string name="status_connected">Đang Kết Nối</string>
+    <string name="status_disconnect">Ngắt Kết Nối</string>
+    <string name="btn_end_call">KẾT THÚC CUỘC GỌI</string>
+    <string name="turn_on_speaker">Loa Ngoài</string>
+    <string name="turn_off_speaker">Loa Trong</string>
+    <string name="turn_off_micro">Tắt Micro</string>
+    <string name="turn_on_micro">Bật Micro</string>
+    <string name="send_reject_message">Gửi Tin Nhắn</string>
+    <string name="video_call">Cuộc Gọi Video</string>
+    <string name="silence">Im Lặng</string>
+    <string name="notify_after">Thông Báo Lại</string>
+    <string name="call_accept">ĐỒNG Ý</string>
+    <string name="call_reject">TỪ CHỐI</string>
+</resources>

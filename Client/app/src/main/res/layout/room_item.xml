@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="10dp"
+	android:weightSum="10"
+	android:background="@drawable/layout_border_dotted_line">
+	<LinearLayout
+		android:id="@+id/root_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="horizontal"
+		android:weightSum="10">
+		<FrameLayout
+			android:layout_weight="2.5"
+			android:layout_width="0dp"
+			android:layout_height="fill_parent"
+			android:layout_gravity="center">
+		<ImageView
+			android:id="@+id/img_room"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:contentDescription="@string/app_name"
+			android:src="@mipmap/ic_empty_icon" />
+		</FrameLayout>
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="6.5"
+			android:layout_gravity="center_vertical"
+			android:orientation="vertical" >
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp"
+				android:orientation="horizontal"
+				tools:ignore="RtlHardcoded">
+				<TextView
+					android:id="@+id/txt_1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="- "
+					android:textColor="@android:color/white"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					tools:ignore="HardcodedText" />
+				<TextView
+					android:id="@+id/txt_room_state"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@android:color/white"
+					android:textAppearance="?android:attr/textAppearanceSmall"/>
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp"
+				android:orientation="horizontal"
+				tools:ignore="RtlHardcoded">
+				<TextView
+					android:id="@+id/txt_2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="- "
+					android:textColor="@android:color/white"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					tools:ignore="HardcodedText" />
+				<TextView
+					android:id="@+id/txt_room_address"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@android:color/white"
+					android:textAppearance="?android:attr/textAppearanceSmall"/>
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp"
+				android:orientation="horizontal"
+				tools:ignore="RtlHardcoded">
+				<TextView
+					android:id="@+id/txt_3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="- "
+					android:textColor="@android:color/white"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					tools:ignore="HardcodedText" />
+				<TextView
+					android:id="@+id/txt_room_rent"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@android:color/white"
+					android:textAppearance="?android:attr/textAppearanceSmall"/>
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp"
+				android:orientation="horizontal"
+				tools:ignore="RtlHardcoded">
+				<TextView
+					android:id="@+id/txt_4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="- "
+					android:textColor="@android:color/white"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					tools:ignore="HardcodedText" />
+				<TextView
+					android:id="@+id/txt_room_area"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@android:color/white"
+					android:textAppearance="?android:attr/textAppearanceSmall"/>
+			</LinearLayout>
+		</LinearLayout>
+		<ImageView
+			android:id="@+id/imageView"
+			android:layout_width="0dp"
+			android:contentDescription="@string/app_name"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center_vertical"
+			android:src="@mipmap/ic_action_next"/>
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Ripple View -->
+    <color name="rippelColor">#CC2DBE60</color>
+<!-- Material CheckBox -->
+    <color name="checkbox_color">#ffffff</color>
+    <color name="checkbox_checked_color">#3949AB</color>
+    <color name="checkbox_mark_color">#ffffff</color>
+<!-- Material Dialog -->
+    <color name="md_btn_selected">#33969696</color>
+    <color name="md_btn_selected_dark">#40CBCBCB</color>
+    <color name="md_divider_black">#10000000</color>
+    <color name="md_divider_white">#10FFFFFF</color>
+    <color name="md_material_blue_600">#1E88E5</color>
+    <color name="md_material_blue_800">#1565C0</color>
+    <color name="md_edittext_error">#DD2C00</color>
+<!-- Material Spinner -->
+    <color name="disabled_color">#44000000</color>
+    <color name="error_color">#E7492E</color>
+<!-- DatePicker Dialog -->
+    <color name="date_picker_view_animator">#80673AB7</color>
+    <color name="line_background">#ffcccccc</color>
+    <color name="done_text_color_normal">#ff333333</color>
+    <color name="done_text_color_disabled">#ffcccccc</color>
+    <color name="white">#ffffffff</color>
+    <color name="darker_blue">#80673AB7</color>
+    <color name="blue">#80673AB7</color>
+    <color name="date_picker_text_normal">#FFFFFF</color>
+    <color name="circle_background">#FFFFFF</color>
+</resources>

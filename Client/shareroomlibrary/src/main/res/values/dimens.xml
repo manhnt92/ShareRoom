@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Material CheckBox -->
+    <dimen name="checkbox_width">48dp</dimen>
+    <dimen name="checkbox_height">48dp</dimen>
+    <dimen name="checkbox_thumb_size">20dp</dimen>
+    <dimen name="checkbox_corner_radius">2dp</dimen>
+    <dimen name="checkbox_border_width">2dp</dimen>
+    <dimen name="checkbox_mark_width">2dp</dimen>
+    <dimen name="checkbox_ripple_radius">24dp</dimen>
+    <dimen name="checkbox_mark_left_right_padding">3dp</dimen>
+    <dimen name="checkbox_mark_top_padding">4dp</dimen>
+    <dimen name="checkbox_mark_bottom_padding">5dp</dimen>
+<!-- Material Dialog -->
+    <!-- Margin around the dialog, excluding the button bar -->
+    <dimen name="md_dialog_frame_margin">24dp</dimen>
+    <!-- Total title margin bottom is 16, but we split this between content and title -->
+    <dimen name="md_title_frame_margin_bottom">12dp</dimen>
+    <dimen name="md_title_frame_margin_bottom_less">6dp</dimen>
+    <!-- The desired padding when no title is visible, This plus md_content_padding_top should equals md_dialog_frame_margin -->
+    <dimen name="md_notitle_vertical_padding">16dp</dimen>
+
+    <dimen name="md_content_padding_top">8dp</dimen>
+    <dimen name="md_simplelistitem_padding_top">8dp</dimen>
+
+    <dimen name="md_button_min_width">72dp</dimen>
+    <!-- Above and below buttons, 36+6+6=48 for the height of the button frame -->
+    <dimen name="md_button_inset_vertical">6dp</dimen>
+    <dimen name="md_button_inset_horizontal">4dp</dimen>
+    <dimen name="md_button_textpadding_horizontal">1dp</dimen>
+    <dimen name="md_button_padding_horizontal">8dp</dimen>
+    <dimen name="md_button_padding_vertical">4dp</dimen>
+    <dimen name="md_button_padding_horizontal_internalexternal">32dp</dimen>
+    <!-- 16dp - 4dp (inset from background drawable) -->
+    <dimen name="md_button_padding_frame_side">12dp</dimen>
+    <dimen name="md_neutral_button_margin">12dp</dimen>
+
+    <!-- actual content padding bottom is 16dp, but we split between button bar and content -->
+    <dimen name="md_content_padding_bottom">8dp</dimen>
+    <dimen name="md_button_frame_vertical_padding">8dp</dimen>
+    <dimen name="md_button_height">48dp</dimen>
+    <dimen name="md_title_textsize">20sp</dimen>
+    <dimen name="md_content_textsize">14sp</dimen>
+    <dimen name="md_button_textsize">14sp</dimen>
+    <dimen name="md_listitem_textsize">16sp</dimen>
+    <dimen name="md_listitem_height">48dp</dimen>
+    <dimen name="md_listitem_control_margin">6dp</dimen>
+    <dimen name="md_icon_margin">16dp</dimen>
+    <dimen name="md_icon_max_size">48dp</dimen>
+    <dimen name="md_listitem_margin_left">24dp</dimen>
+    <dimen name="md_action_corner_radius">2dp</dimen>
+    <dimen name="md_divider_height">1dp</dimen>
+
+    <dimen name="md_bg_corner_radius">2dp</dimen>
+    <dimen name="circular_progress_border">4dp</dimen>
+    <dimen name="md_listitem_vertical_margin">12dp</dimen>
+    <dimen name="md_listitem_vertical_margin_choice">8dp</dimen>
+<!-- Material Edittext -->
+    <dimen name="default_padding_top">8dp</dimen>
+    <dimen name="default_padding_bottom">8dp</dimen>
+    <dimen name="inner_padding_left">0dp</dimen>
+    <dimen name="inner_padding_right">0dp</dimen>
+    <dimen name="floating_label_text_size">12sp</dimen>
+    <dimen name="bottom_text_size">12sp</dimen>
+    <dimen name="inner_components_spacing">8dp</dimen>
+    <dimen name="bottom_ellipsis_height">4dp</dimen>
+<!-- Facebook SDK -->
+    <dimen name="com_facebook_auth_dialog_corner_radius">2dp</dimen>
+    <!--Oversized radius for making sure that when two frames are overlayed the button one does not stick out-->
+    <dimen name="com_facebook_auth_dialog_corner_radius_oversized">4dp</dimen>
+    <dimen name="com_facebook_button_corner_radius">2dp</dimen>
+<!-- Material Spinner -->
+    <dimen name="underline_top_spacing">8dp</dimen>
+    <dimen name="underline_bottom_spacing">4dp</dimen>
+    <dimen name="error_label_spacing">12dp</dimen>
+    <dimen name="floating_label_top_spacing">4dp</dimen>
+    <dimen name="floating_label_bottom_spacing">8dp</dimen>
+    <dimen name="floating_label_inside_spacing">12dp</dimen>
+    <dimen name="right_left_spinner_padding">8dp</dimen>
+    <dimen name="label_text_size">12sp</dimen>
+    <dimen name="min_content_height">20dp</dimen>
+<!-- DatePicker Dialog -->
+    <dimen name="date_picker_component_width">270dip</dimen>
+    <dimen name="date_picker_header_height">30dip</dimen>
+    <dimen name="date_picker_header_text_size">14dip</dimen>
+    <dimen name="selected_calendar_layout_height">155dip</dimen>
+    <dimen name="done_label_size">14sp</dimen>
+    <dimen name="selected_date_month_size">30dip</dimen>
+    <dimen name="selected_date_day_size">75dip</dimen>
+    <dimen name="selected_date_year_size">30dip</dimen>
+    <dimen name="date_picker_view_animator_height">270dip</dimen>
+    <dimen name="year_label_height">64dip</dimen>
+    <dimen name="year_label_text_size">22dip</dimen>
+    <dimen name="day_number_size">16sp</dimen>
+    <dimen name="month_label_size">16sp</dimen>
+    <dimen name="month_day_label_text_size">10sp</dimen>
+    <dimen name="month_list_item_header_height">50dip</dimen>
+    <dimen name="day_number_select_circle_radius">16dip</dimen>
+    <dimen name="month_select_circle_radius">45dip</dimen>
+<!-- Star Bar -->
+    <dimen name="ratingSliderFontSize">10sp</dimen>
+</resources>
